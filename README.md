@@ -1,3 +1,34 @@
+# OTP Guidelines
+
+### 1) there is 4 Variables you need in the .env file
+
+```
+- TWILIO_ACCOUNT_SID
+
+- TWILIO_AUTH_TOKEN
+
+- TWILIO_WHATSAPP_SENDER
+
+- TWILIO_OTP_TEMPLATE_SID
+```
+
+### 2) GET META VERIFIED (OR BUSINESS VERIFIED) (up to 2 business days)
+
+### 3) Twilio:
+#### 3.1) Create a Twilio Account
+#### 3.2) Buy a Whatsapp Sender from twilio
+#### 3.3) Create a template (authentication template)
+#### 3.4) submit it to whatsapp to verify
+
+once verified , you can use it in postman/api to send it to your clients
+
+checkout twilio api documentation for more details: https://github.com/twilio/twilio-php
+
+specifically: https://www.twilio.com/docs/messaging/api/message-resource#create-a-message-resource
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
